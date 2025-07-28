@@ -10,10 +10,14 @@ const Tabledata = () => {
             <th> movie </th>
         </tr>      
        </thead>  
-       <>  
+       <> 
+         
          <Data/>
         
         </> 
+         
+        
+        
        
      
     </table> 
