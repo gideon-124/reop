@@ -15,6 +15,9 @@ import Parent from './components/LifeCyclemethods/Parent'
 import Counter from './components/LifeCyclemethods/Parent'
 import Frag from './components/Fragments'
 import Tabledata from './components/Fragments/index1'
+import Comp from './components/pureComponents/PureComp'
+import Pure from './components/pureComponents/Pure'
+import Normal from './components/pureComponents/Normal'
 // import './App.css' 
 
 
@@ -36,7 +39,8 @@ function App() {
      {/* <Parent/>  */}
      {/* <Counter/> */}  
      {/* <Frag/> */}  
-     <Tabledata/>
+     {/* <Tabledata/> */} 
+     <Comp/>
 
     </div>
   )
