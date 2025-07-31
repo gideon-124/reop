@@ -42,9 +42,9 @@ class Comp extends Component {
     return (
       <div>
         Component    
-        <Compmemo props={this.state.singer}/>    
+        {/* <Compmemo props={this.state.sieeeeeenger}/>     */}
         {/* <Pure singer={this.state.singer}/>  */}
-        {/* <Normal singer={this.state.singer}/> */}
+        <Normal singer={this.state.singer}/> 
       </div>
     )
   }

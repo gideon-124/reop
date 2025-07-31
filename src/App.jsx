@@ -18,6 +18,11 @@ import Tabledata from './components/Fragments/index1'
 import Comp from './components/pureComponents/PureComp'
 import Pure from './components/pureComponents/Pure'
 import Normal from './components/pureComponents/Normal'
+import Game from './components/Form/Game'
+import Ref from './components/ref'
+import Input from './components/ref/Input'
+import Focus from './components/ref/Focus'
+
 // import './App.css' 
 
 
@@ -35,13 +40,17 @@ function App() {
      {/* <ClassCond/> */} 
      {/* <GreetingFunc/> */} 
      {/* <LIst/> */} 
-     {/* <FormData/> */}  
+     {/* <FormData/ > */}
      {/* <Parent/>  */}
      {/* <Counter/> */}  
      {/* <Frag/> */}  
      {/* <Tabledata/> */} 
-     <Comp/>
-
+     {/* <Comp/> */}    
+     {/* <FormData/> */}
+     {/* <Game/> */} 
+     {/* <Ref/> */}
+     {/* <Input/> */} 
+     <Focus/>
     </div>
   )
 }
