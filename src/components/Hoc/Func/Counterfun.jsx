@@ -4,7 +4,7 @@ const Counterfun = () => {
     const[count, setCount]=useState(0)   
 
 
-    const handler=()=>{  
+    const handler=()=>{    
 
         setCount(count+1)  
     }

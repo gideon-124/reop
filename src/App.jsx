@@ -25,6 +25,11 @@ import Focus from './components/ref/Focus'
 import CounterComp from './components/Hoc/Class/Counter'
 import Hover from './components/Hoc/Class/Hover'
 import Counterfun from './components/Hoc/Func/Counterfun'
+import CounterOne from './components/RenderProps/CounterOne'
+import Hoverprops from './components/RenderProps/Hoverprops'
+import RenderPro from './components/RenderProps/RenderPro'
+import FinalRender from './components/RenderProps/FinalRender'
+
 
 // import './App.css' 
 
@@ -56,8 +61,20 @@ function App() {
      {/* <Focus/> */}   
 
     {/* <CounterComp/> 
-    <Hover/> */} 
-    <Counterfun/>
+    <Hover/> */}   
+
+     {/* <CounterOne/> 
+    <Hoverprops/>    */}  
+    <RenderPro movie={()=> 'Dairy'}/>
+    {/* <RenderPro movie={(pp)  => pp ?   'Newyork'  : 'London' }/> */}
+    {/* <RenderPro  movie={(log)=>  log ? 'Kingdom' : 'Nothing' }/>    */}
+    <FinalRender render={(count, handle) =>    
+      <CounterOne count={count} handle={handle} />}/>  
+
+      <FinalRender render ={(count, handle)=> 
+        <Hoverprops count={count} handle={handle}/>}/>
+      
+    
     </div>
   )
 }
