@@ -22,6 +22,9 @@ import Game from './components/Form/Game'
 import Ref from './components/ref'
 import Input from './components/ref/Input'
 import Focus from './components/ref/Focus'
+import CounterComp from './components/Hoc/Class/Counter'
+import Hover from './components/Hoc/Class/Hover'
+import Counterfun from './components/Hoc/Func/Counterfun'
 
 // import './App.css' 
 
@@ -49,8 +52,12 @@ function App() {
      {/* <FormData/> */}
      {/* <Game/> */} 
      {/* <Ref/> */}
-     {/* <Input/> */} 
-     <Focus/>
+     {/* <Input/> */}  
+     {/* <Focus/> */}   
+
+    {/* <CounterComp/> 
+    <Hover/> */} 
+    <Counterfun/>
     </div>
   )
 }
