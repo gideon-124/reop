@@ -5,7 +5,7 @@ class Input extends Component {
     super() 
     this.inputRef=React.createRef()
    }
-    
+
    focusInput(){
     this.inputRef.current.focus()
    }
@@ -16,6 +16,6 @@ class Input extends Component {
       </div>
     )
   }
-}
+}  
 
 export default Input
