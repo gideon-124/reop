@@ -29,6 +29,12 @@ import CounterOne from './components/RenderProps/CounterOne'
 import Hoverprops from './components/RenderProps/Hoverprops'
 import RenderPro from './components/RenderProps/RenderPro'
 import FinalRender from './components/RenderProps/FinalRender'
+import CompF from './components/context/CompF'
+import CompC from './components/context/CompC'
+import { UserProvider } from './components/context/Usecontext'
+import Networkcalls from './components/Api/Networkcalls'
+
+
 
 
 // import './App.css' 
@@ -65,18 +71,23 @@ function App() {
 
      {/* <CounterOne/> 
     <Hoverprops/>    */}  
-    <RenderPro movie={()=> 'Dairy'}/>
+    {/* <RenderPro movie={()=> 'Dairy'}/> */}
     {/* <RenderPro movie={(pp)  => pp ?   'Newyork'  : 'London' }/> */}
     {/* <RenderPro  movie={(log)=>  log ? 'Kingdom' : 'Nothing' }/>    */}
-    <FinalRender render={(count, handle) =>    
+    {/* <FinalRender render={(count, handle) =>    
       <CounterOne count={count} handle={handle} />}/>  
 
       <FinalRender render ={(count, handle)=> 
-        <Hoverprops count={count} handle={handle}/>}/>
-      
+        <Hoverprops count={count} handle={handle}/>}/>    */}  
+
+       {/* <UserProvider value="context"> 
+         <CompC/>
+       </UserProvider> */}
+
+     <Networkcalls/>
     
     </div>
-  )
+  )      
 }
 
 export default App
