@@ -8,10 +8,6 @@ const Networkcalls = () => {
     const[name, setName]=useState('') 
     const [userName, setUserName]=useState('')  
 
-
-
-
-
     let url="https://jsonplaceholder.typicode.com/users"  
     
     

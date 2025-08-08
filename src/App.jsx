@@ -33,6 +33,13 @@ import CompF from './components/context/CompF'
 import CompC from './components/context/CompC'
 import { UserProvider } from './components/context/Usecontext'
 import Networkcalls from './components/Api/Networkcalls'
+import Array from './components/useState/Array'
+import CounterEff from './components/useEffect/CounterEff'
+import CleanUp from './components/useEffect/CleanUp'
+import Toggle from './components/useEffect/Toggle'
+import ApiCalls from './components/useEffect/ApiCalls'
+import Addproduct from './components/Api/Addproduct'
+
 
 
 
@@ -84,8 +91,15 @@ function App() {
          <CompC/>
        </UserProvider> */}
 
-     <Networkcalls/>
-    
+     {/* <Networkcalls/> */}   
+     {/* <Array/> */}
+     
+       {/* <CounterEff/> */} 
+       {/* <CleanUp/>  */}
+       {/* <Toggle/>  */}
+
+       {/* <ApiCalls/> */}   
+       <Addproduct/>
     </div>
   )      
 }
