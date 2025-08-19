@@ -29,4 +29,6 @@ export default Useeffect
 //which means it is similar to component did mount in class comp.---[]
 //if you changing a  state dependencies means on changing the particular
 //dependencies use effect will call.
-//if u use effect means it will every time.
+//if u use effect means it will every time.   
+
+
