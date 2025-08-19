@@ -31,14 +31,22 @@ import RenderPro from './components/RenderProps/RenderPro'
 import FinalRender from './components/RenderProps/FinalRender'
 import CompF from './components/context/CompF'
 import CompC from './components/context/CompC'
-import { UserProvider } from './components/context/Usecontext'
+// import { UserProvider } from './components/context/Usecontext'
 import Networkcalls from './components/Api/Networkcalls'
 import Array from './components/useState/Array'
 import CounterEff from './components/useEffect/CounterEff'
 import CleanUp from './components/useEffect/CleanUp'
 import Toggle from './components/useEffect/Toggle'
 import ApiCalls from './components/useEffect/ApiCalls'
-import Addproduct from './components/Api/Addproduct'
+import Addproduct from './components/Api/Addproduct' 
+import Muiform from "./components/mui/Muiform"
+import Comp1 from './components/usecontext/Comp1' 
+import { userProvider as UserProvider } from './components/usecontext/UserContext'
+import ParentCall from './components/usecallback/Parent'
+import Incmem from './components/usememo/Incmem'
+import IncMemo from './components/usememo/IncMemo'
+import Toggletext from './components/Customhooks /Toggletext'
+
 
 
 
@@ -99,7 +107,18 @@ function App() {
        {/* <Toggle/>  */}
 
        {/* <ApiCalls/> */}   
-       <Addproduct/>
+       {/* <Addproduct/> */}  
+       {/* <Muiform/>   */}    
+       {/* <UserProvider value="React context"> 
+       
+       <Comp1/> 
+       </UserProvider> */} 
+
+       {/* <ParentCall/> */}  
+       {/* <Incmem/> 
+       <IncMemo/> */} 
+       <Toggletext/>
+      
     </div>
   )      
 }
