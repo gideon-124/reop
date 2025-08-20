@@ -24,7 +24,7 @@ const useToggle = (para) => {
             setValue(!value) 
         }  else{  
             console.log("else")
-            setValue(value)
+            setValue(!value)
         }
 
     } 

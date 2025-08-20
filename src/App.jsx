@@ -46,6 +46,10 @@ import ParentCall from './components/usecallback/Parent'
 import Incmem from './components/usememo/Incmem'
 import IncMemo from './components/usememo/IncMemo'
 import Toggletext from './components/Customhooks /Toggletext'
+import CounterRed from './components/reducer'
+import CounterReducer from './components/reducer/CounterReducer'
+import ApiReducer from './components/reducer/ApiReducer'
+
 
 
 
@@ -117,8 +121,11 @@ function App() {
        {/* <ParentCall/> */}  
        {/* <Incmem/> 
        <IncMemo/> */} 
-       <Toggletext/>
-      
+       {/* <Toggletext/> */}  
+       {/* <CounterRed/>  */}
+       {/* <CounterReducer/>  */}  
+       <ApiReducer/>
+        
     </div>
   )      
 }
